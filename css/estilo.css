@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    animation: fadein 2s;
+}
+.loginbg{
+	background-image: url("everest.jpeg");
+    min-height: 100%;
+    max-height:  auto;
+    position: absolute;
+    width: 100%;
+}
+.loginbox{
+    margin-top: 10%;
+    width: 35%;
+    height: auto;
+    max-height: 500px;
+    background-color:rgba(0, 0, 0, 0.4);
+    border-radius:10px;
+    padding: 20px;
+
+}
+
+.listbox{
+    background-color: white;
+    opacity: 0.8;
+    width: AUTO;
+}
+
+.col-md-12{
+    padding:3px;
+}
+.loginbox button{
+    height: 35px;
+}
+.loginbox input[type=submit]{
+    height: 35px;
+}
+.loginbox #text{
+    background-color: white;
+    height: 120px;
+    border-radius: 5px;
+}
+
+
+
